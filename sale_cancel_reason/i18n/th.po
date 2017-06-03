@@ -11,11 +11,11 @@ msgstr ""
 "POT-Creation-Date: 2017-06-01 02:53+0000\n"
 "PO-Revision-Date: 2017-06-01 02:53+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/zh_CN/)\n"
+"Language-Team: Thai (https://www.transifex.com/oca/teams/23907/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_CN\n"
+"Language: th\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sale_cancel_reason
@@ -54,25 +54,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_create_uid
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_create_uid
 msgid "Created by"
-msgstr "创建者"
+msgstr "สร้างโดย"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_create_date
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_create_date
 msgid "Created on"
-msgstr "创建时间"
+msgstr "สร้างเมื่อ"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_display_name
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "ชื่อที่ใช้แสดง"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_id
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_id_4750
 msgid "ID"
-msgstr "ID"
+msgstr "รหัส"
 
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_only_quotation
@@ -83,19 +83,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel___last_update
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason___last_update
 msgid "Last Modified on"
-msgstr "Last Modified on"
+msgstr "แก้ไขครั้งสุดท้ายเมื่อ"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_write_uid
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_write_uid
 msgid "Last Updated by"
-msgstr "最后更新者"
+msgstr "อัพเดทครั้งสุดท้ายโดย"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_write_date
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_write_date
 msgid "Last Updated on"
-msgstr "上次更新日期"
+msgstr "อัพเดทครั้งสุดท้ายเมื่อ"
 
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_other_provider
@@ -135,7 +135,7 @@ msgstr ""
 #. module: sale_cancel_reason
 #: model:ir.model,name:sale_cancel_reason.model_sale_order
 msgid "Sales Order"
-msgstr "销售订单"
+msgstr ""
 
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_no_service_needed

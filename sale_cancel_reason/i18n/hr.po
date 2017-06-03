@@ -4,19 +4,20 @@
 # 
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2017
+# Bole <bole@dajmi5.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-01 02:53+0000\n"
 "PO-Revision-Date: 2017-06-01 02:53+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/zh_CN/)\n"
+"Last-Translator: Bole <bole@dajmi5.com>, 2017\n"
+"Language-Team: Croatian (https://www.transifex.com/oca/teams/23907/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. module: sale_cancel_reason
 #: model:ir.model,name:sale_cancel_reason.model_sale_order_cancel
@@ -26,7 +27,7 @@ msgstr ""
 #. module: sale_cancel_reason
 #: model:ir.ui.view,arch_db:sale_cancel_reason.view_sale_order_cancel
 msgid "Cancel"
-msgstr ""
+msgstr "Otkaži"
 
 #. module: sale_cancel_reason
 #: model:ir.ui.view,arch_db:sale_cancel_reason.view_order_form
@@ -54,19 +55,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_create_uid
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_create_uid
 msgid "Created by"
-msgstr "创建者"
+msgstr "Kreirao"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_create_date
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_create_date
 msgid "Created on"
-msgstr "创建时间"
+msgstr "Kreirano"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_display_name
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_display_name
 msgid "Display Name"
-msgstr "Display Name"
+msgstr "Naziv "
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_id
@@ -83,19 +84,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel___last_update
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason___last_update
 msgid "Last Modified on"
-msgstr "Last Modified on"
+msgstr "Zadnje modificirano"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_write_uid
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_write_uid
 msgid "Last Updated by"
-msgstr "最后更新者"
+msgstr "Zadnji ažurirao"
 
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason_write_date
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_write_date
 msgid "Last Updated on"
-msgstr "上次更新日期"
+msgstr "Zadnje ažuriranje"
 
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_other_provider
@@ -135,7 +136,7 @@ msgstr ""
 #. module: sale_cancel_reason
 #: model:ir.model,name:sale_cancel_reason.model_sale_order
 msgid "Sales Order"
-msgstr "销售订单"
+msgstr "Prodajni nalog"
 
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_no_service_needed
@@ -145,4 +146,4 @@ msgstr ""
 #. module: sale_cancel_reason
 #: model:ir.ui.view,arch_db:sale_cancel_reason.view_sale_order_cancel
 msgid "or"
-msgstr ""
+msgstr "ili"
