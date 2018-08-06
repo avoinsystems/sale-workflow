@@ -9,8 +9,8 @@
                 <attribute name="invisible">True</attribute>
             </xpath>
             <xpath expr="//button[@name='action_cancel']" position="before">
-                <button name="%(action_sale_order_cancel)d" states="draft,sent,sale"
-                  string="Cancel Order" type="action" groups="base.group_user"/>
+                <button name="wizard_sale_order_cancel" states="draft,sent,sale"
+                  string="Cancel Order" type="object" groups="base.group_user"/>
             </xpath>
             <xpath expr="/form/sheet/div/h1" position="after">
                 <h2 attrs="{'invisible': [('state', '!=', 'cancel')]}">

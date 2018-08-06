@@ -1,6 +1,6 @@
 # Copyright 2013 Guewen Baconnier, Camptocamp SA
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
-from odoo import models, fields
+from odoo import models, fields, api
 
 
 class SaleOrder(models.Model):
@@ -11,6 +11,12 @@ class SaleOrder(models.Model):
         string="Reason for cancellation",
         readonly=True,
         ondelete="restrict")
+
+    @api.multi
+    def wizard_sale_order_cancel(self):
+        self.ensure_one()
+        action = self.env.ref('sale_cancel_reason.action_sale_order_cancel').read()[0]
+        return action
 
 
 class SaleOrderCancelReason(models.Model):
